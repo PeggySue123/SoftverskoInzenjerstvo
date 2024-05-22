@@ -1,0 +1,122 @@
+body {
+  background-color: #fdedf3 !important;
+}
+
+.ui.inverted.top.fixed.menu{
+  background: linear-gradient(
+    to right,
+    #FFB067 1%,
+    #f8ccdc 60%,
+    #fdedf3 71%
+  )!important; 
+  }
+
+  .navbar-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ui.grey.right.floated.button{
+    background-color: #fdedf3;
+    border: 2px solid;
+    border-color: #000000;
+    color: #000000;
+  }
+
+  .ui.right.floated.button.obrisi{
+    border: 2px solid;
+    border-color: indianred;
+    background-color:indianred;
+    color: #ffffff;
+  }
+
+  .ui.button.dugmekreiraj{
+    border: 2px solid;
+    border-color: #FFB067;
+    background-color: #FFB067;
+    color: #ffffff;
+  }
+
+  .navbar-desno{
+    margin-left: 500px;
+  }
+
+  .ui.positive.right.floated.button.dugmedodaj, .ui.right.floated.button.dugmeotkazi{
+    background-color: #f6f1f9;
+    border: 1px solid black;
+    color: black;
+  }
+
+
+  /* početna strana stilovi */
+
+.masthead {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    #FFB067 1%,
+    #f8ccdc 60%,
+    #fdedf3 71%
+  )!important; 
+  height: 100vh;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead  h1.ui.header {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.ui.inverted.header, .ui huge.inverted.button {
+  margin-top: 2.5em;
+}
+
+.ui.header>.image:not(.icon), .ui.header>img {
+  display: inline-block;
+  margin-top: -3.14285714em;
+  width: 30em;
+  height: auto;
+  vertical-align: middle;
+}
+
+.divider.text, .dropdown.icon {
+  color: #e85d91;
+}
+
+.ui.grid.korisnikdash {
+  min-height: calc(100vh - 34px);
+}
+
+.ui.grid.korisnikopis {
+  min-height: calc(100vh - 34px);
+}
+.sixteen.wide.column.korisniklist {
+  min-height: calc(100vh - 34px);
+}
+.poruka {
+  min-height: calc(100vh - 74px);
+}
+
+.ui.footerbar.menu.footerbar {
+  background-color: #000000;
+  color: #ffffff;
+  position: relative;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+#root{
+  height: auto;
+}
+/* početna strana stilovi završeni*/
